@@ -1,0 +1,8 @@
+﻿Pessoa (Nome, CPF(KEY), Nivel de Escolaridade, Cidade, Estado)
+
+Unidade (NomeUnidade(Key), EstadoUnidade)
+
+TrabalhaEm(CPF(KEY), NomeUnidade(KEY), Orgao, SituacaoServidor, DLNomeacao, Datainicio, Salario) 
+CPF -> Pessoa
+NomeUnidade-> Unidade
+
